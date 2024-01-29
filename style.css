@@ -87,7 +87,8 @@ span{
     align-items: flex-start;
     gap: 5px;
     border-radius: 5px;
-    border: 1px solid var(--border__color);
+    background: var(--bg__buttom);
+    box-shadow: 0px 2px 0px 0px #CCC;
 }
 
 .content_center__list{
@@ -102,4 +103,5 @@ span{
     --text_code:#D7D7D7;
     --note: #979797;
     --main: black;
+    --bg__buttom: #F6F6F6;
 }
